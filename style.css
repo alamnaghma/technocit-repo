@@ -1,0 +1,320 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: white;
+    font-size: 15px;
+}
+.navbar-light .navbar-brand{
+    color: white;
+    font-size: 15px;
+}
+header{
+    background-image: url("assets/krakenimages-376KN_ISplE-unsplash\ 1_1_129.png");
+    background-size: 100% auto; 
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 900px; 
+    max-height: 100vh; 
+   
+}
+
+.logo{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 100px; /* Adjust the size as needed */
+    height: auto;
+}
+
+.curve_line{
+    width: 100%;
+   
+} 
+
+.curve_lines{
+    left: auto !important;
+    width: 55%;
+}
+
+.header_text{
+    width: 450px;
+    max-width: 100vh;
+}
+
+.multicolor_text{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    background-clip: text;
+    -webkit-background-clip: text; /* For older versions of webkit browsers */
+    color: transparent;
+    /* font-size: 24px; */
+    font-weight: bold;
+}
+
+.blue_line{
+    height: 5px;
+    width: 30px;
+    background-color: blue;
+}
+
+.white_line{
+    height: 5px;
+    width: 30px;
+    background-color: white;
+}
+
+.text{
+  color: black;
+  font-size: medium;
+}
+
+.white-text-color{
+    color: white; 
+}
+
+.features_heading{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+.features_heading li {
+    display: inline-block;
+    margin-right: 10px; /* Adjust the margin as needed */
+}
+
+.our_feautures {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+}
+
+.our_feautures li {
+    display: inline-block;
+    margin-right: 10px; /* Adjust the margin as needed */
+}
+
+.product_services{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+.product_services  li{
+        display: inline-block; /* or use 'inline' if you want them without any spacing */
+        margin-right: 10px;    /* Add some margin between the list items if needed */
+}
+
+.features{
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(10,9,43,1) 0%, rgba(14,11,208,1) 100%, rgba(38,38,182,1) 100%);
+    height: 500px;
+    max-height: 50vh;
+}
+
+.card_image img{
+    height: 100px;
+    max-height: 100vh;
+}
+
+.lists{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.lists li{
+    display: inline-block;
+    margin-right: 10px; 
+}
+
+.grey_color{
+    background-color: rgb(241, 241, 241);
+    height: 500px;
+    max-height: 100vh;
+}
+
+.light_blue{
+    background-color: rgb(167, 167, 255);
+    height: 500px;
+    max-height: 100vh;
+}
+
+.fit_image{
+   width: 100%;
+   height: 500px;
+   max-height: 100vh;
+   
+}
+
+.recent_works{
+    background-image: url("assets/Project\ Cover\ 1_1_42.png");
+    background-size: 100% auto; 
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 500px; 
+    max-height: 100vh;
+    padding-top: 200px !important;
+}
+
+.move_card_right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+}
+
+.contact_us{
+    background-image: url("assets/contact_us.png");
+    background-size: 100% auto; 
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 500px; 
+    max-height: 100vh;
+}
+
+.small_containers{
+    background-color: rgb(241, 241, 241);
+    height: 100px;
+    margin-right: 60px ;
+    margin-left: 60px;
+}
+
+.blue_text_color {
+    color:rgb(43, 101, 226);
+}
+
+.footer_bkg{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    width: 100%;
+    height: 350px;
+    max-height: 100vh;
+}
+
+.logo_setSize{
+    width: 80px;
+    height: fit-content;
+}
+
+.white_text_color{
+    color: #f4f4f4;
+}
+
+.remove_list_style li{
+    list-style: none;
+}
+
+.social_icons li{
+    display: inline-block;
+}
+
+/* contact-form */
+.contact-form {
+    background-color: #fff;
+    padding: 20px;
+    width: 40%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+  
+  .contact-form h2 {
+    font-weight: bold;
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .contact-form .input-box {
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  .contact-form .input-box input,
+  .contact-form .input-box textarea{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+  }
+  
+  .contact-form .input-box span {
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+  }
+  
+  .contact-form .input-box input:focus ~ span,
+  .contact-form .input-box textarea:focus ~ span{
+    color: #e91e63;
+    font-size: 12px;
+    transform: translateY(-20px);
+  }
+  
+  .contact-form .input-box input[type="submit"]
+  {
+    width: 100%;
+    background: #00bcd4;
+    color: #FFF;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #00bcd4;
+    transition: 0.5s;
+  }
+  
+  .contact-form .input-box input[type="submit"]:hover
+  {
+    background: #FFF;
+    color: #00bcd4;
+  }
+
+  .grey_bkg_color{
+    background-color: rgb(241, 241, 241);
+}
+  
+  @media (max-width: 115px) {
+    section {
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+    
+    .row {
+      flex-direction: column;
+    }
+    
+    .contact-info {
+      margin-bottom: 40px;
+      width: 100%;
+    }
+    
+    .contact-form {
+      width: 100%;
+    }
+  }
+
+
+/*media Query*/
+@media only screen and (max-width:600px){
+    header{
+        background-position: 20% 33%;
+    }
+}
